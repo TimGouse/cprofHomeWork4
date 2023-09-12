@@ -7,13 +7,4 @@ namespace cprofHomeWork4
         int Max { get; }
         int Attempts { get; }
     }
-    public interface IInputReader
-    {
-        int ReadInput();
-    }
-
-    public interface IOutputWriter
-    {
-        void WriteOutput(string message);
-    }
 }
